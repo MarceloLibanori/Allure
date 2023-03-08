@@ -1,5 +1,22 @@
 {
+  "name": "cadastro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test":  "cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "cypress": "^12.7.0"
+    "cypress": "4.1"
+  },
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.35.2",
+    "allure-commandline": "^2.21.0"
+
+   
+   
   }
 }
